@@ -50,7 +50,7 @@ async function checkApi() {
             const desp = `【地区】：${node_name}\n【IP】：${remote_ip}`.replace(/[\n\r]/g, '\n\n')
             await axios({
               method: 'post',
-              url: `https://sc.ftqq.com/${secrets.sctKey}.send`,
+              url: `https://sc.ftqq.com/SCU102219Td0de373942dc1dab1e83c321ebf73a4a5eed8ad5df9fe.send`,
               headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
               },
