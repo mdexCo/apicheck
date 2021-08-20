@@ -6,7 +6,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 
 async function checkApi() {
   const tokenData = {
-    host: 'gateway.mdex.one',
+    host: 'gateway.mdex.cc',
     type: 'hijack',
     _token: 'RxLM3wP5Yyhey4JGTc85js5mfITwKWKmOFHjch7p',
     create_task: '0',
