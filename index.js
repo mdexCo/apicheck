@@ -56,7 +56,7 @@ async function checkApi() {
               },
               data: `text=${node_name} ERROR&desp=${desp}`
             })
-            await bluebird.delay(20000)
+            await bluebird.delay(13000)
           }
        }));
       }
